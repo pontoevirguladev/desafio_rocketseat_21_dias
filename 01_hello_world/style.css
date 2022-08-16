@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.text {
+    font-family: "Lucida Console", sans-serif;
+    font-weight: 700;
+    font-size: 5rem;
+    color: #fff;
+    border: 3px solid #fff;
+    padding: 2rem 4rem;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(45deg, #012E4A, #036280, #378BA4, #81BECE, #E8EDE7);
+    background-size: 150% 150%;
+    animation: colors 3s ease infinite;
+}
+
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 50% 100%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
