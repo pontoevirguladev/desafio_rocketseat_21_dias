@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(45deg, #802392, #995FA3, #9A98B5, #A0B9C6, #A5F8D3);
+    background-size: 125% 125%;
+}
+
+button {
+    height: 4rem;
+    width: 9rem;
+    background-color: #69306D;
+    color: #fff;
+    border: 0;
+    border-radius: 10px;
+    font-size: 1.3rem;
+    font-family: "Trebuchet MS", sans-serif;
+    box-shadow: 0px 10px 0px 0px #4C2C69;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+button:active {
+    transform: translateY(7px);
+    box-shadow: 0px 5px 0px 0px #42253B;
+}
