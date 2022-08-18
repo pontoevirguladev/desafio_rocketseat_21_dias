@@ -1,0 +1,57 @@
+body {
+    margin: 0px;
+    font-family: Ubuntu;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #344966;
+}
+
+table {
+    border: 1px solid #344966;
+    border-spacing: 5px 5px;
+    border-radius: 10px;
+    background-color: #B4CDED;
+}
+
+td {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    background-color: #0D1821;
+    border-radius: 10px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.btn {
+    border-radius: 50%;
+}
+
+td:hover {
+    background-color: #344966;
+}
+
+#display {
+    background-color: #F0F4EF;
+}
+
+#result {
+    font-size: 30px;
+    text-align: right;
+    margin-right: 5%;
+    color: #000;
+}
+
+#equals {
+    background-color: #FF5733;
+}
+
+#equals:hover {
+    background-color: #CA2400;
+}
