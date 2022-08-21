@@ -5,12 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Open%20Sans' rel='stylesheet'>
     <title>Glassmorphism</title>
 </head>
 
 <body>
     <div class="container">
-        <div class="card"></div>
+        <div class="card">
+            <div class="card-top">
+                <div class="main-weather-icon">
+                    <img src="rain-icon.png" alt="Raining">
+                </div>
+                <div class="temperature">
+                    <p id="degree">11°</p>
+                    <p id="degree-description">Night Rain</p>
+                </div>
+            </div>
+            <div class="card-bottom">
+                <div class="wind-speed">
+                    <p class="weather-icons"><img src="wind.png" alt="Wind"></p>
+                    <p class="icon-texts">28 km/h</p>
+                </div>
+                <div class="rain-percent">
+                    <p class="weather-icons"><img src="cloud.png" alt="Clound"></p>
+                    <p class="icon-texts">83 %</p>
+                </div>
+                <div class="snow-percent">
+                    <p class="weather-icons"><img src="snow.png" alt="Snow"></p>
+                    <p class="icon-texts">2 of 10</p>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
 
