@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'Digital Dismay';
+    src: url('digital-dismay.regular.otf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #000;
+}
+
+#counter {
+    width: 50%;
+    font-family: 'Digital Dismay';
+    font-size: 200px;
+    color: green;
+}
+
+button {
+    width: 150px;
+    height: 60px;
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Orbitron';
+    background-color: #000;
+    border: 2px solid #fff;
+}
+
+button:hover {
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #000;
+}
