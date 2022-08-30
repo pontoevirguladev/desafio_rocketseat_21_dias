@@ -1,0 +1,47 @@
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background: linear-gradient(180deg, #32213A, #383B53, #66717E);
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper {
+    width: 60%;
+    height: auto;
+}
+
+.swiper-slide {
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.city-name {
+    position: absolute;
+    color: #E4FDE1;
+    font-size: 100px;
+    font-weight: 700;
+    opacity: 0.5;
+}
